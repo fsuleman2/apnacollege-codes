@@ -30,7 +30,7 @@ public class BinaryToDecimal {
             boolean checkBinary = checkBinary(n);
             if(checkBinary){
                 int result = BinToDec(n);
-                System.out.println("Decimal Value of Binar: "+n+" is "+result);
+                System.out.println("Decimal Value of Binary: "+n+" is "+result);
     
             }
             else{

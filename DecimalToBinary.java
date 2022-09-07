@@ -1,4 +1,4 @@
-public class DecimalToBinary {
+public class DecimalTobinary {
     // binimal to binary
     public static int decToBin(int n) {
         int bin = 0, pow = 0;
@@ -18,3 +18,5 @@ public class DecimalToBinary {
         System.out.println(result);
     }
 }
+
+

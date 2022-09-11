@@ -5,6 +5,7 @@ public class ButterflyPattern {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter any number");
         int n = sc.nextInt();
+        System.out.println();
         butterFlyPattern(n);
         sc.close();
 
@@ -15,8 +16,8 @@ public class ButterflyPattern {
             for(int j=1;j<=i;j++){
                 System.out.print("*");
             }
-            for(int j=1;j<=n-i;j++){
-                System.out.print("  ");
+            for(int j=1;j<=2*(n-i);j++){
+                System.out.print(" ");
             }
             for(int k=1;k<=i;k++){
                 System.out.print("*");
@@ -27,8 +28,8 @@ public class ButterflyPattern {
             for(int j=1;j<=i;j++){
                 System.out.print("*");
             }
-            for(int j=1;j<=n-i;j++){
-                System.out.print("  ");
+            for(int j=1;j<=2*(n-i);j++){
+                System.out.print(" ");
             }
             for(int k=1;k<=i;k++){
                 System.out.print("*");

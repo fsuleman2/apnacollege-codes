@@ -7,7 +7,7 @@ public class BinarySearch {
         int index = binarySearch(num,element);
         System.out.println("Element "+element+" is at index "+index);
     }
-
+    //Time Complexity of Binary search is O(logn)
     public static int binarySearch(int[] num, int key) {
         int start = 0, end = num.length-1;
         while(start<=end){

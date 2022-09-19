@@ -13,7 +13,6 @@ public class PrintAllSubArrays {
              int sum=0;
             for(int j=i;j<len;j++){
                 for(int k=i;k<=j;k++){
-                   
                     System.out.print("["+numArr[k]+"] ");
                     sum+=numArr[k];
                 }

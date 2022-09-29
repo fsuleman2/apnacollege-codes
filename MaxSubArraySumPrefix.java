@@ -3,7 +3,7 @@ public class MaxSubArraySumPrefix {
         int[] arr = {1,-2,6,-1,3};
         maxSubArraySumPrefix(arr);
     }
-
+    //prefix approach => Time complexity = O(n^2)
     public static void maxSubArraySumPrefix(int[] arr) {
         int maxSum=Integer.MIN_VALUE,currSum=0;
         //step1 => calculating the sum of all possible arrays. for one itration

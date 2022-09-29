@@ -5,7 +5,7 @@ public class MaxSubArraySum {
         int[] arr = {1,-2,6,-1,3};
         maxSubArraySum(arr);
     }
-
+    //brute force approach => Time complexity = O(n^3)
     public static void maxSubArraySum(int[] arr) {
         int currSum=0;
         int maxSum = Integer.MIN_VALUE;

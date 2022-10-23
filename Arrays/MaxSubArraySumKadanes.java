@@ -4,9 +4,9 @@ public class MaxSubArraySumKadanes {
     public static void main(String[] args) {
         int[] arr = {-2,-3,4,-1,-2,1,5,-3};
         int[] arr1 = {-1,0,-3};
-        //maxSubArraySumKadanes(arr);
+        maxSubArraySumKadanes(arr);
         maxSubArray(arr1);
-        //maxSubArraySumKadanesShradhaApproach(arr);
+        maxSubArraySumKadanesShradhaApproach(arr);
     }
 
     public static void maxSubArraySumKadanes(int[] arr) {
